@@ -581,12 +581,17 @@ object {
 #main h1 a,
 #main h2{
 	color: #03434C;
-	font-family: Georgia, serif;
 }
 .current_page_item,
 #main {
 	background-color: ghostwhite;
 }
+#main h1,
+#main h2,
+.main-navigation{
+	font-family: Georgia, serif;
+}
+
 #main h1 {
 	margin:0 0 12px;
 }

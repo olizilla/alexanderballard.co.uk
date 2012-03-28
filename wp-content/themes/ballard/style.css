@@ -604,6 +604,7 @@ object {
 }
 #secondary {
 	width:22%;
+	min-height:600px;
 	background: #DAE1AB;
 	border-top: 2px solid #57A501;
 	padding:0 1%;
@@ -647,6 +648,10 @@ label {
 p {
 	margin-top: 0;
 	font-size: 0.9em;
+}
+.address {
+	font-size: 0.9em;
+	font-style: normal;
 }
 
 /* Contain floats: h5bp.com/q */

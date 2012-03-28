@@ -31,7 +31,7 @@ audio:not([controls]) { display: none; }
 
 html { background:#EAE9CD; font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+html, button, input, select, textarea { font-family: 'Lato', sans-serif; color: #222; }
 
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
@@ -574,15 +574,13 @@ object {
 	padding: 4px 26px;
 	border-right:solid 1px #C5D27A;
 }
-.current_page_item {
-	background-color: #f5f5f5;
+.current_page_item,
+#main {
+	background-color: ghostwhite;
 }
 .current_page_item a,
 #main h1{
 	color: #03434C;
-}
-#main {
-	background: white;
 }
 #main h1 {
 	margin-top:0;

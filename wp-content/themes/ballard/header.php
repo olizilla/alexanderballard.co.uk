@@ -55,6 +55,12 @@
 		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 	</nav>
 
+	<?php if(get_field('big_intro')) { ?>
+	<div class="big_intro">
+		<?php the_field('big_intro'); ?>
+	</div>
+	<?php } ?>
+
 	<?php if(get_field('banner_image')) { ?>
 	<div class="banner">
 		<img src="<?php the_field('banner_image'); ?>" alt="" />

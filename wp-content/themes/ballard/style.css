@@ -544,6 +544,7 @@ object {
 /*--------------------------------------------------------------------------------------------------------------------*/
 .site-header,
 .main-navigation,
+.big_intro,
 .banner,
 #main,
 .site-footer {
@@ -554,6 +555,10 @@ object {
 .site-footer{
 	max-width: 920px;
 	padding:0 20px;
+}
+.big_intro {
+	max-width: 880px;
+	padding:30px 40px;
 }
 .main-navigation,
 .banner
@@ -582,6 +587,10 @@ object {
 	padding: 4px 26px;
 	border-right:solid 1px #C5D27A;
 }
+.big_intro{
+	font-size: 1.9em;
+	line-height: 1em;
+}
 .banner {
 	padding:0;
 }
@@ -591,16 +600,19 @@ object {
 #main {
 	padding-top: 18px;
 }
+.big_intro,
 .current_page_item a,
 #main h1,
 #main h1 a,
 #main h2{
-	color: #03434C;
+	color: #08595C;
 }
+.big_intro,
 .current_page_item,
 #main {
 	background-color: ghostwhite;
 }
+.big_intro,
 #main h1,
 #main h2,
 .main-navigation{

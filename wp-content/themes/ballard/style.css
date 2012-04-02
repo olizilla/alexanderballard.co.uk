@@ -549,9 +549,10 @@ object {
 	max-width: 960px;
 	margin:0 auto;
 	padding:0 20px;
+
 }
 .site-header {
-	background: #B3C358 url("logo.png") no-repeat 26px center;
+	background: #B3C358 url("img/logo.png") no-repeat 26px center;
 	border-bottom:solid 1px #C5D27A;
 }
 .site-header h1 {
@@ -657,6 +658,20 @@ p {
 .address {
 	font-size: 0.9em;
 	font-style: normal;
+}
+.site-info {
+	color: #8D8C70;
+	background: transparent url("img/green-ring.png") no-repeat left center;
+	padding-left: 40px;
+	line-height: 5em;
+	font-size: smaller;
+}
+#footer-sidebar1 p {
+	display: inline;
+	padding-right:20px;
+}
+#footer-sidebar1 a {
+	color: inherit;
 }
 
 /* Contain floats: h5bp.com/q */

@@ -85,13 +85,21 @@ add_action( 'after_setup_theme', 'ballard_setup' );
  * @since Ballard 1.0
  */
 function ballard_widgets_init() {
-	register_sidebar( array(
+	register_sidebar(array(
 		'name' => __( 'Sidebar', 'ballard' ),
 		'id' => 'sidebar-1',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
 		'before_title' => '<h1 class="widget-title">',
 		'after_title' => '</h1>',
+	) );
+	register_sidebar(array(
+		'name' => __( 'Footer', 'ballard' ),
+		'id' => 'footer-1',
+		'before_widget' => '<div>',
+		'after_widget' => "</div>",
+		'before_title' => '<span class="widget-title">',
+		'after_title' => '</span>',
 	) );
 }
 add_action( 'widgets_init', 'ballard_widgets_init' );

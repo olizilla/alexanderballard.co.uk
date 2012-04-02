@@ -605,6 +605,7 @@ object {
 
 .widget {
 	margin: 0 0 1.5em;
+	font-size: 0.8em;
 }
 
 /* Search widget */

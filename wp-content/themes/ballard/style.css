@@ -544,12 +544,22 @@ object {
 /*--------------------------------------------------------------------------------------------------------------------*/
 .site-header,
 .main-navigation,
+.banner,
+#main,
+.site-footer {
+	margin:0 auto;
+}
+.site-header,
 #main,
 .site-footer{
-	max-width: 960px;
-	margin:0 auto;
+	max-width: 920px;
 	padding:0 20px;
-
+}
+.main-navigation,
+.banner
+{
+	max-width: 960px;
+	padding:0;
 }
 .site-header {
 	background: #B3C358 url("img/logo.png") no-repeat 26px center;
@@ -566,13 +576,17 @@ object {
 .main-navigation {
 	border-top:solid 1px #9DAC43;
 	background: #A6B747;
-	padding:0;
-	max-width: 1000px;
 }
 .main-navigation a {
 	color: white;
 	padding: 4px 26px;
 	border-right:solid 1px #C5D27A;
+}
+.banner {
+	padding:0;
+}
+.banner img {
+	width: 100%;
 }
 #main {
 	padding-top: 18px;

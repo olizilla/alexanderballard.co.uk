@@ -54,4 +54,11 @@
 	<nav role="navigation" class="site-navigation main-navigation clearfix">
 		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 	</nav>
+
+	<?php if(get_field('banner_image')) { ?>
+	<div class="banner">
+		<img src="<?php the_field('banner_image'); ?>" alt="" />
+	</div>
+	<?php } ?>
+
 	<div id="main">

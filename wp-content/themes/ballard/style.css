@@ -638,13 +638,18 @@ object {
 	padding:0;
 }
 .site-header {
-	background: #B3C358 url("img/logo.png") no-repeat 26px center;
 	border-bottom:solid 1px #C5D27A;
+	background:#B3C358;
 }
 .site-header h1 {
 	margin:0;
-	line-height: 3em;
-	visibility: hidden;
+}
+.site-header h1 a{
+	background: #B3C358 url("img/logo.png") no-repeat left center;
+	width:279px;
+	height:100px;
+	margin:0 0 0 6px;
+	display:block;
 }
 .site-header h2 {
 	margin: 0;
@@ -772,7 +777,8 @@ h1,h2 {
 
 
 /* For image replacement */
-.ir { border: 0; font: 0/0 a; text-shadow: none; color: transparent; background-color: transparent; }
+.ir,
+.site-header h1 a span{ border: 0; font: 0/0 a; text-shadow: none; color: transparent; background-color: transparent; }
 
 /* Contain floats: h5bp.com/q */
 .clearfix:before, .clearfix:after { content: ""; display: table; }

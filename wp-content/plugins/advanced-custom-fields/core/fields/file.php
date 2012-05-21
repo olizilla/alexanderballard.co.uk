@@ -51,7 +51,7 @@ class acf_File extends acf_Field
    		
    		
    		?>
-		<ul class="hl">
+		<ul class="hl clearfix">
 			<li data-mime="<?php echo get_post_mime_type( $id ) ; ?>">
 				<img class="acf-file-icon" src="<?php echo wp_mime_type_icon( $id ); ?>" alt=""/>
 			</li>
@@ -160,7 +160,7 @@ class acf_File extends acf_Field
 				<?php $this->render_file( $field['value'] ); ?>
 			</div>
 			<div class="no-file">
-			<ul class="hl">
+			<ul class="hl clearfix">
 				<li>
 					<span class="acf-file-name"><?php _e('No File Selected','acf'); ?></span>. <a href="javascript:;" class="button"><?php _e('Add File','acf'); ?></a>
 				</li>
@@ -380,7 +380,7 @@ class acf_File extends acf_Field
 	 				// add row 
 	 				self.parent.acf_div.closest('.repeater').find('.table_footer #r_add_row').trigger('click'); 
 	 			 
-	 				// set acf_div to new row image 
+	 				// set acf_div to new row file 
 	 				self.parent.acf_div = self.parent.acf_div.closest('.repeater').find('> table > tbody > tr.row:last-child .acf_file_uploader'); 
 	 			} 
 	 			else 
@@ -390,7 +390,7 @@ class acf_File extends acf_Field
  					self.parent.tb_remove(); 
 	 			} 
 	 			 
-	 			// add next image 
+	 			// add next file 
 	 			acf_add_next_file(); 
 	 			 
 	 	 
@@ -448,7 +448,7 @@ class acf_File extends acf_Field
 	}
 	<?php
 	
-	// run the acf_add_buttons ever 500ms when on the image upload tab
+	// run the acf_add_buttons ever 500ms when on the file upload tab
 	if($tab == 'type'): ?>
 	var acf_t = setInterval(function(){
 		acf_add_buttons();

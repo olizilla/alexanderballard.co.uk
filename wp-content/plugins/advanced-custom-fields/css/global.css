@@ -197,10 +197,6 @@ ul.radio_list {
 	margin: 0;
 }
 
-ul.radio_list input[type="radio"] {
-	margin-right: 5px;
-}
-
 ul.radio_list.horizontal li {
 	float: left;
 	margin-right: 20px;
@@ -211,8 +207,10 @@ ul.checkbox_list {
 	margin: 0;
 }
 
-ul.checkbox_list input[type="checkbox"] {
+ul.radio_list input,
+ul.checkbox_list input {
 	margin-right: 5px;
+	width: auto;
 }
 
 
@@ -284,5 +282,3 @@ input[type="submit"].acf-button[disabled]:hover {
 	background: -moz-linear-gradient(top,  #2c8bbe, #246f99); /* for firefox 3.6+ */
 	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
-
-

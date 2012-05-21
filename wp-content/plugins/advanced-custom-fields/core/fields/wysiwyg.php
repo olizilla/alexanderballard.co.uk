@@ -138,8 +138,8 @@ class acf_Wysiwyg extends acf_Field
 					'value'	=>	$field['toolbar'],
 					'layout'	=>	'horizontal',
 					'choices' => array(
-						'full'	=>	'Full',
-						'basic'	=>	'Basic'
+						'full'	=>	__("Full",'acf'),
+						'basic'	=>	__("Basic",'acf')
 					)
 				));
 				?>
@@ -157,8 +157,8 @@ class acf_Wysiwyg extends acf_Field
 					'value'	=>	$field['media_upload'],
 					'layout'	=>	'horizontal',
 					'choices' => array(
-						'yes'	=>	'Yes',
-						'no'	=>	'No',
+						'yes'	=>	__("Yes",'acf'),
+						'no'	=>	__("No",'acf'),
 					)
 				));
 				?>

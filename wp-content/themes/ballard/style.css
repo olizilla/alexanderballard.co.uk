@@ -733,25 +733,21 @@ label {
 	margin: 0;
 }
 .entry-meta {
-	opacity: 0;
+	opacity: 0.8;
 	font-size: 0.7em;
-
-	-webkit-transition: opacity 1s linear;
-	-moz-transition: opacity 1s linear;
-	-ms-transition: opacity 1s linear;
-	-o-transition: opacity 1s linear;
-	transition: opacity 1s linear;
+	margin:6px 0 10px;
 }
 .post:hover .entry-meta {
-	opacity: 0.8;
+
 }
 #nav-above {
 	display: none;
 }
-p {
-	margin-top: 0;
-	font-size: 0.9em;
-}
+
+p { margin-top: 0;}
+
+p, ul { font-size: 0.9em;}
+
 .address {
 	font-size: 0.9em;
 	font-style: normal;
@@ -770,9 +766,13 @@ p {
 #footer-sidebar1 a {
 	color: inherit;
 }
+h1,h2 {
+	clear:both;
+}
 
 
-
+/* For image replacement */
+.ir { border: 0; font: 0/0 a; text-shadow: none; color: transparent; background-color: transparent; }
 
 /* Contain floats: h5bp.com/q */
 .clearfix:before, .clearfix:after { content: ""; display: table; }

@@ -40,6 +40,8 @@
 <![endif]-->
 <?php wp_head(); ?>
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -62,9 +64,11 @@
 	<?php } ?>
 
 	<?php if(get_field('banner_image')) { ?>
-	<div class="banner">
-		<img src="<?php the_field('banner_image'); ?>" alt="" />
+	<div class="banner" id="slideshow">
+		<div class="slide-container">
+			<img src="<?php the_field('banner_image'); ?>" alt="" />
+		</div>
 	</div>
-	<?php } ?>
+	<?php } ?><!-- end banner -->
 
 	<div id="main">

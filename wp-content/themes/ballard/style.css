@@ -775,6 +775,24 @@ h1,h2 {
 	clear:both;
 }
 
+/* Slide show */
+#slideshow {
+	overflow: hidden;
+	position: relative;
+	height:295px;
+	background-color: white;
+}
+.slide-container {
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%
+}
+.slide-container img {
+	height:100%;
+	width:100%
+}
 
 /* For image replacement */
 .ir,

@@ -41,8 +41,8 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #08595C; color: #fff; text-shadow: none; }
+::selection { background: #08595C; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
@@ -419,7 +419,7 @@ textarea:focus {
 }
 .main-navigation .current-page-parent a,
 .main-navigation a:hover {
-	background: #B3C358;
+	background: #B4C053;
 }
 .main-navigation .current-menu-item a:hover{
 	background: inherit;
@@ -434,10 +434,10 @@ textarea:focus {
 	top: 1.9em;
 	left: 0;
 	z-index: 99999;
-	background: #B3C358;
+	background: #A6B747;
 }
 .main-navigation ul ul .current-menu-item a:hover{
-	background: #B3C358;
+	background: #B4C053;
 }
 .main-navigation ul .current-menu-item ul{
 	background: ghostwhite;
@@ -639,13 +639,13 @@ object {
 }
 .site-header {
 	border-bottom:solid 1px #C5D27A;
-	background:#B3C358;
+	background:#B4C053;
 }
 .site-header h1 {
 	margin:0;
 }
 .site-header h1 a{
-	background: #B3C358 url("img/logo.png") no-repeat left center;
+	background: #B4C053 url("img/logo.png") no-repeat left center;
 	width:279px;
 	height:100px;
 	margin:0 0 0 6px;
@@ -740,7 +740,7 @@ label {
 .entry-meta {
 	opacity: 0.8;
 	font-size: 0.7em;
-	margin:6px 0 10px;
+	margin:2px 0 6px;
 }
 .post:hover .entry-meta {
 
@@ -751,7 +751,7 @@ label {
 
 p { margin-top: 0;}
 
-p, ul { font-size: 0.9em;}
+p, ul, ol { font-size: 0.9em;}
 
 .address {
 	font-size: 0.9em;
